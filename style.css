@@ -208,12 +208,10 @@ footer textarea{
 
 
 /* responsive media query*/
-.hide{
-    display: none;
-}
+
 
 @media screen and (max-width: 576px ) {
-    .skills-container, .resume-container ,.about-items , footer{
+    .skills-container, .resume-container ,.about-items , .banner, footer , nav , ul{
         flex-direction: column;
     }
     footer{
@@ -232,7 +230,23 @@ footer textarea{
         }
 
       .about{
-        padding: 0px;
+        padding: 10px;
       }
+          .banner{
+            margin: 10px;
+          }
+        .header{
+                background-image: none;
+                  }
+         .banner-profile-pic {
+                    width: 100%;
+                }
+
+        nav > ul{
+            gap: 20px;
+        }
+                .btn-primary{
+                    margin-bottom: 10px;
+                }
 
 }
