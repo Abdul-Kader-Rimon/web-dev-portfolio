@@ -205,3 +205,9 @@ footer textarea{
         margin-bottom: 24px;
         display: block;
 }
+
+
+/* responsive media query*/
+.hide{
+    display: none;
+}
