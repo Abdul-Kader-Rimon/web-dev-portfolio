@@ -211,3 +211,28 @@ footer textarea{
 .hide{
     display: none;
 }
+
+@media screen and (max-width: 576px ) {
+    .skills-container, .resume-container ,.about-items , footer{
+        flex-direction: column;
+    }
+    footer{
+        /* flex-direction: column; */
+        padding: 20px;
+        gap: 5px;
+    }
+        .footer-column{
+            width: 100%;
+            /* width: calc(100% - 40px); */
+         
+    }
+
+        footer input[type="text"],footer input[type="email"]{
+            width: calc(100% - 40px);
+        }
+
+      .about{
+        padding: 0px;
+      }
+
+}
