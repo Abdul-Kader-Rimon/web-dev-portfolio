@@ -225,9 +225,10 @@ footer textarea{
          
     }
 
-        footer input[type="text"],footer input[type="email"]{
+        footer input[type="text"],footer input[type="email"] ,footer textarea {
             width: calc(100% - 40px);
         }
+
 
       .about{
         padding: 10px;
@@ -248,5 +249,50 @@ footer textarea{
                 .btn-primary{
                     margin-bottom: 10px;
                 }
+                .banner-content{
+                    text-align: center;
+                }
 
+}
+
+/* for table  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+.banner, .resume-container, footer{
+    flex-direction: column;
+}
+.resume-container{
+    padding: 20px;
+}
+         .footer-column {
+               width: 100%;
+               
+               /* width: calc(100% - 40px); */
+
+           }
+
+           footer input[type="text"],
+           footer input[type="email"] , footer textarea {
+               width: calc(100% - 40px);
+           }
+
+           .about {
+               padding: 10px;
+           }
+
+           .about-items{
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+           }
+
+         .skills-container{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            
+         }
+
+                 .banner-content {
+                     text-align: center;
+                 }
+
+    
 }
